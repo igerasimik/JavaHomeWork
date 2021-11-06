@@ -24,13 +24,13 @@ package com.pb.dn090283lis.hw6;
                 }
             }
 
-            System.out.println("\nВЫЗОВ МЕТОДОВ makeNoise, eat \nДЛЯ Кота:");
+            System.out.println("\nДля Кота:");
             Cat.makeNoise();
             Cat.eat();
-            System.out.println("\nдля Собаки:");
+            System.out.println("\nДля Собаки:");
             Dog.makeNoise();
             Dog.eat();
-            System.out.println("\nДЛЯ Коня:");
+            System.out.println("\nДля Коня:");
             Horse.makeNoise();
             Horse.eat();
 

@@ -17,7 +17,7 @@ public class Cat extends Animal{
         this.feature = feature;
         this.ageAnimal = ageAnimal;
         setFood(" корм Felix ");
-        setLocation(" Клетку нужен домик для лазанья ");
+        setLocation("просторную клетку, нужен домик для лазанья ");
 
     }
     @Override
@@ -97,8 +97,6 @@ public class Cat extends Animal{
 
     @Override
     public String toString() {
-        return "Cat{" +
-                "ageAnimal=" + ageAnimal +
-                '}';
+        return "Кот ";
     }
 }

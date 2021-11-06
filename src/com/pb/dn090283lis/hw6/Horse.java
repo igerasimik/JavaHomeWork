@@ -97,8 +97,6 @@ public class Horse extends Animal{
 
     @Override
     public String toString() {
-        return "Horse{" +
-                "ageAnimal=" + ageAnimal +
-                '}';
+        return "Конь";
     }
 }
