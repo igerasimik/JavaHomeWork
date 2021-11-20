@@ -25,7 +25,7 @@ public class OnlineShop {
             System.out.println(ex.getMessage());
         }
         if (null != authorization.getLogin()) {
-            System.out.println("Авторизация пользователя.");
+            System.out.println("Регистрация прошла успешно!");
             System.out.print("\nВведите логин: ");
             lgn = in.nextLine();
             System.out.print("\nВведите пароль: ");
